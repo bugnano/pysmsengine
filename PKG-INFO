@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pySmsEngine
+Version: 1.0.0
+Summary: An open-source API package for sending and receiving SMS via a GSM device.
+Home-page: http://www.bugnano.it/
+Author: Franco Bugnano
+Author-email: franco@bugnano.it
+License: GNU Library or Lesser General Public License (LGPL)
+Description: pySmsEngine is a package which can be used in order to add SMS processing capabilities in an application. pySmsEngine is written in python, and based on the Java software jSMSEngine version 1.2.7. It allows you to communicate with a compatible mobile phone or GSM Modem, and send / receive SMS messages.
+Platform: UNKNOWN

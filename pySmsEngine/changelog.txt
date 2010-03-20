@@ -1,0 +1,6 @@
+
+2007-01-24 VER 1.0.0
+	-	Implementato installer con distutils
+	-	Implementato controllo su cifre esadecimali e su lunghezza messaggio
+		quando ricevo un messaggio in modalita' ASCII
+

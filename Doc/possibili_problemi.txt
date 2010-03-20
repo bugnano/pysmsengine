@@ -1,0 +1,25 @@
+Possibili problemi tra un modem e l'altro:
+Possibili problemi di compatibilita' tra un modem e l'altro:
+
+- Se far valere inizialmente '00' a pdu in outgoing_message, e poi
+  decrementare j in service, oppure se far valere inizialmente '' a pdu e non decrementare j.
+- Se mettere o no le virgolette al comando AT+CMGS (E a questo punto forse
+  anche al comando AT+CPIN).
+- Se aspettare un doppio OK quando dico di andare in modalita' PDU
+
+Wavecom Fastrack:
+- pdu inizia con '00' e j viene decrementato
+- AT+CMGS ha le virgolette
+- Niente doppio OK quando si va in modalita' PDU
+
+Nokia 3220:
+- pdu inizia con '00' e j viene decrementato
+- AT+CMGS non ha le virgolette
+- Niente doppio OK quando si va in modalita' PDU
+
+Motorola L2:
+- pdu inizia con '00' e j viene decrementato
+- AT+CMGS non ha le virgolette
+- Doppio OK quando si va in modalita' PDU
+- Alcuni messaggi si leggono solo in modalita' ASCII
+

@@ -1,0 +1,20 @@
+git add PKG-INFO
+git add setup.py
+git add Doc
+git add Doc/possibili_problemi.txt
+git add Doc/GSM0338.txt
+git add README.txt
+git add setup.cfg
+git add LICENSE.txt
+git add pySmsEngine
+git add pySmsEngine/outgoing_message.py
+git add pySmsEngine/gsm_alphabet.py
+git add pySmsEngine/serial_driver.py
+git add pySmsEngine/test_suite.py
+git add pySmsEngine/at_commands.py
+git add pySmsEngine/service.py
+git add pySmsEngine/incoming_message.py
+git add pySmsEngine/changelog.txt
+git add pySmsEngine/__init__.py
+git add pySmsEngine/status_report_message.py
+
